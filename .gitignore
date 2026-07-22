@@ -1,0 +1,28 @@
+# === WordPress core (not our work — downloadable) ===
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# === wp-content: ignore everything EXCEPT our child theme ===
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/gp-dan-db-child/
+
+# === Runtime / environment ===
+/.ddev/
+wp-config.php
+*.log
+
+# === Uploads & media library (regenerated; source art lives in _covers/) ===
+/wp-content/uploads/
+
+# === OS / editor noise ===
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
